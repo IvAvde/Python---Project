@@ -1,9 +1,7 @@
-a = input('начальный результат:')
-b = input('цель:')
-a = float(a)
-b = float(b)
+start = float(input('начальный результат:'))
+end = float(input('цель:'))
 day_count = 0
-while a < b:
-    a = 1.1*a
+while start < end:
+    start = 1.1*start
     day_count += 1
 print(day_count)

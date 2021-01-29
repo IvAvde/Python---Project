@@ -1,9 +1,6 @@
-n = input('введи n: ')
-nn = n+n
-nnn = n+n+n
-n = int(n)
-nn = int(nn)
-nnn = int(nnn)
+n = int(input('введи n: '))
+nn = int(n+n)
+nnn = int(n+n+n)
 
 print(n + nn + nnn)
 
