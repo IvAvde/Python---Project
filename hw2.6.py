@@ -1,0 +1,6 @@
+goods = dict(name = input('введите название'), cost = input('введите цену'), number = input('введите количество'), measure = input('введите единицы измерения'))
+goods1 = dict(name = input('введите название'), cost = input('введите цену'), number = input('введите количество'), measure = input('введите единицы измерения'))
+goods2 = dict(name = input('введите название'), cost = input('введите цену'), number = input('введите количество'), measure = input('введите единицы измерения'))
+print(goods)
+print(goods1)
+print(goods2)
